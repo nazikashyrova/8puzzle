@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>8 Puzzle</title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="style.css" rel="stylesheet" type="text/css" />
+    <script src="https://code.jquery.com/jquery-2.2.4.min.js"></script>
+    <link rel="stylesheet" href="https://code.jquery.com/ui/1.12.1/themes/base/jquery-ui.css">
+</head>
+
+<body>
+    <div class="main">
+        <h1 id="header">8 Puzzle Game</h1>
+        <div id="slider">
+            <div>
+                <h2>Bashlangych project<br>2021</div>
+            </h2>
+            <div>
+                <h2> <br><br>by Nazik </div>
+            </h2>
+            <div>
+                <h2><br><br>Enjoy</div>
+            </h2>
+        </div>
+        <div class="button">START</div>
+    </div>
+    <div class="main">
+        <h1>Pick an Image</h1>
+        <div id="pics">
+            <img src="img1.jpg" alt="" />
+            <img src="img2.jpg" alt="" />
+            <img src="img3.jpg" alt="" />
+        </div>
+        <div id="buttonHidden">Continue</div>
+    </div>
+    <div class="main" style="width: 600px;">
+        <div id="game">
+            <ul></ul>
+        </div>
+        <div id="select">
+            <select name="shuffle" id="shuffle">
+<option selected disabled value="none">choose shuffle</option>
+<option value="3">3 moves</option>
+<option value="30">30 moves</option>
+</select>
+            <div class="hideButton" id="play">START</div>
+        </div>
+        <p id="solveNow">Solve the puzzle now!<br>
+        </p>
+        <div class="backdrop">
+            <h2 id="popup">Congratulations</h2>
+            <p id="f5">Press F5 to restart</p>
+        </div>
+    </div>
+    <script src="https://code.jquery.com/ui/1.12.1/jquery-ui.js"></script>
+    <script src="js.js" type="text/javascript"></script>  
+</body>
+
+</html>
